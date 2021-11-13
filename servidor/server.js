@@ -16,7 +16,7 @@ app.post('/usuarios', (req, res, next) => {
 
 app.get('/usuarios', (req, res) => {
 
-    res.send('<h1>enviando com sucesso</h1>')
+    res.send('enviando com sucesso')
 })
 
 app.listen(3000, () => {    
